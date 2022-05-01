@@ -1,5 +1,6 @@
 package com.son.yj.chapter10.item44;
 
+import java.util.function.DoublePredicate;
 import java.util.function.IntFunction;
 import java.util.function.LongToIntFunction;
 
@@ -21,7 +22,10 @@ public class FunctionalInterfaceTest {
         // 왠만하면 표준 함수형 인터페이스 활용
         // 직접 만들려면 인터페이스에는 항상 FunctionalInterface 사용
 
-        
+        DoublePredicate doublePredicate = d -> d == 124;
+
+        System.out.println(doublePredicate.test(124));
+        System.out.println(doublePredicate.test(123));
 
     }
 
