@@ -1,4 +1,4 @@
-package com.son.yj.item02;
+package com.son.yj.chapter1.item02;
 
 public class UserInfo {
     private String name;

@@ -1,6 +1,4 @@
-package com.son.yj.item10;
-
-import java.time.LocalDateTime;
+package com.son.yj.chapter1.item10;
 
 public class EqualTest {
 
